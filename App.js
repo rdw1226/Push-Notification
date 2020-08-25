@@ -4,7 +4,7 @@ import OneSignal from 'react-native-onesignal';
 
 class App extends React.Component {
     componentDidMount() {
-        OneSignal.init('0d0139b0-4429-46f0-b6c2-e2777a1fd19e');
+        OneSignal.init('');
         OneSignal.addEventListener('received', (data) => {
             console.log(data);
             console.log('sent')
